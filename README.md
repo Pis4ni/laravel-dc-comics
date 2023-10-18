@@ -60,6 +60,7 @@ DB_PASSWORD=root
 
 ## Creazione di una Migration
 
+
 Per creare una tabella lanciare il comando
 
 ```
@@ -89,12 +90,12 @@ public function up()
     });
   }
 ```
-
 Eseguo la migrazione appena creata con il comando
 
 ```
 php artisan migrate
 ```
+# ------------>
 
 ## Aggiunta di dati
 
@@ -108,7 +109,7 @@ Creo un Model che rappresenti la tabella appena realizzata con il comando
 php artisan make:model House
 ```
 
-## Creazione di un Controller per la risorsa
+## Creazione di un Controller per la risorsa ----------------------------------------------------
 
 Creo un Controller per la risorsa `House` con il comando
 
