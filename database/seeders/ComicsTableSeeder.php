@@ -32,6 +32,9 @@ class ComicsTableSeeder extends Seeder
             $comic->sale_date = $_comic['sale_date'];
             $comic->type = $_comic['type'];
 
+            // NON FUNZIONA:
+            // $comic->fill($_comic);
+
             $comic->save();
         }
 

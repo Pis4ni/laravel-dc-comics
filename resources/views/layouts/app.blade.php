@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"  data-bs-theme="dark">
 
 <head>
   <meta charset="UTF-8">
@@ -15,7 +15,7 @@
   @include('partials._navbar')
 
   <main>
-    @yield('main-content')
+    @yield('content')
   </main>
 
 </body>
